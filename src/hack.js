@@ -10,6 +10,6 @@ const hash = '5e7d28e2cfff93edefb2d15abad07ec5';
 // First correct PR wins a Lifetime PRO  membership and T-shirt
 
 ///// ANSWER /////
-
-const hacked = 'superhacker';
+const ans="superhacker";
+//used https://www.md5online.org/md5-decrypt.html
 
