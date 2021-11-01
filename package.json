@@ -1,0 +1,23 @@
+{
+  "name": "crypto-examples",
+  "version": "1.0.0",
+  "description": "7 useful examples of the node crypto module.",
+  "main": "index.js",
+  "dependencies": {
+    "reverse-md5": "0.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fireship-io/node-crypto-examples.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fireship-io/node-crypto-examples/issues"
+  },
+  "homepage": "https://github.com/fireship-io/node-crypto-examples#readme"
+}
