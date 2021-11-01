@@ -2,16 +2,18 @@
 
 7 useful examples of the node crypto module.
 
-- Hash
-- Salt
-- HMAC
-- Symmetric Encryption
-- Keypairs
-- Asymmetric Encryption
-- Signing
+- Watch [7 Cryptography Concepts](https://youtu.be/NuyzuNBFWxQ) on YouTube
+- Full [Node Crypto Tutorial](https://fireship.io/lessons/node-crypto-examples/) on Fireship
 
-- Watch [7 Cryptography Concepts]() on YouTube
-- Full [Node Crypto Tutorial]() on Fireship
+## Concepts
+
+1. Hash
+1. Salt
+1. HMAC
+1. Symmetric Encryption
+1. Keypairs
+1. Asymmetric Encryption
+1. Signing
 
 ## Challenge
 

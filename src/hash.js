@@ -3,7 +3,7 @@ const { createHash } = require('crypto');
 // Create a string hash
 
 function hash(input) {
-    return createHash('sha256').update(input).digest('hex');
+    return createHash('sha256').update(input).digest('base64');
 }
 
 // Compare two hashed passwords
