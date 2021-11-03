@@ -10,6 +10,6 @@ const hash = '5e7d28e2cfff93edefb2d15abad07ec5';
 // First correct PR wins a Lifetime PRO  membership and T-shirt
 
 ///// ANSWER /////
-
+// It is 'superhacker' only.
 const hacked = 'superhacker';
 
