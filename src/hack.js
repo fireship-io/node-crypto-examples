@@ -11,5 +11,7 @@ const hash = '5e7d28e2cfff93edefb2d15abad07ec5';
 
 ///// ANSWER /////
 
-const hacked = 'superhacker';
+// I used https://www.dcode.fr/md5-hash and inputted the MD5 Hash
+
+const digest = 'superhacker';
 
