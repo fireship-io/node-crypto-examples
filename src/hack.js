@@ -12,7 +12,7 @@ const hash = '5e7d28e2cfff93edefb2d15abad07ec5';
 ///// ANSWER /////
 
 // I used https://www.dcode.fr/md5-hash and inputted the MD5 Hash to get the MD5 digest. 
-// I know I could hae used Hashcat to find the answer, but my graphics card is acting up :(
+// I know I could hae used Hashcat to find the answer, but my graphics card is acting up. :(
 
 const digest = 'superhacker';
 
