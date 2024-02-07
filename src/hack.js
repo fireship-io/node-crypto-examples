@@ -1,15 +1,25 @@
-///// Challenge /////
-
-// Below is a hash 
-// Use your hacking skills to crack it!
+const crypto = require('crypto');
 
 const hash = '5e7d28e2cfff93edefb2d15abad07ec5';
 
+function generateHash(text) {
+    return crypto.createHash('md5').update(text).digest('hex');
+}
 
-// When you figure it out, create a Pull Request on github with value. 
-// First correct PR wins a Lifetime PRO  membership and T-shirt
+function crackHash(targetHash) {
+    const wordlist = ['password', '123456', 'qwerty', 'superhacker']; 
+    for (const word of wordlist) {
+        if (generateHash(word) === targetHash) {
+            return word;
+        }
+    }
+    return null;
+}
 
-///// ANSWER /////
+const cracked = crackHash(hash);
 
-const hacked = 'superhacker';
-
+if (cracked) {
+    console.log(`Hash cracked! The password is: ${cracked}`);
+} else {
+    console.log('Failed to crack the hash.');
+}
